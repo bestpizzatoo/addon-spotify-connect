@@ -29,8 +29,8 @@ name=$(bashio::config 'name')
 bitrate=$(bashio::config 'bitrate')
 
 {
-    #echo "username = \"${username}\""
-    #echo "password = \"${password}\""
+    echo "username = \"\""
+    echo "password = \"\""
     echo "device_name = \"${name}\""
     echo "bitrate = ${bitrate}"
 } >> /etc/spotifyd.conf
